@@ -9,78 +9,98 @@
   <body>
     <div class="wrapper">
 <!-- #region header -->
-      <header class="header">
+      <header class="header" id="header">
         <div class="baner__first"></div>
         <div class="container">
-            <div class="header__inner">
-              <img
-                class="logo"
-                href="#"
-                src="./images/baners/Logo.png"
-                alt="Potr-pots logo"
-              >
+          <div class="header__inner">
+            <img
+              class="logo"
+              href="#"
+              src="./images/baners/Logo.png"
+              alt="Potr-pots logo"
+            >
 
-              <nav class="header__menu">
-                <ul class="header__list">
-                  <li>
-                    <a href="" class="header__link">Features</a>
-                  </li>
-                  <li>
-                    <a href="" class="header__link">About us</a>
-                  </li>
-                  <li>
-                    <a href="" class="header__link">Materials</a>
-                  </li>
-                  <li>
-                    <a href="" class="header__link">Message us</a>
-                  </li>
-                </ul>
-              </nav>
+            <nav class="header__menu">
+              <ul class="header__list">
+                <li>
+                  <a href="#features" class="header__link">Features</a>
+                </li>
+                <li>
+                  <a href="#potr-team" class="header__link">About us</a>
+                </li>
+                <li>
+                  <a href="#materials" class="header__link">Materials</a>
+                </li>
+                <li>
+                  <a href="#questions" class="header__link">Message us</a>
+                </li>
+              </ul>
+            </nav>
 
-              <img
-                href="#"
-                src="./images/icons/bag.png"
-                alt="bag-icon"
-                class="icon-bag"
-              >
+            <div class="header__icon">
+              <label for="#questions">
+                <a href="#questions">
+                  <img
+                  src="./images/icons/bag.png"
+                  alt="bag-icon"
+                >
+                </a>
+
+              </label>
             </div>
-
+          </div>
         </div>
       </header>
 <!-- #endregion -->
 
 <!-- #region main -->
       <main class="main">
-        <div class="main__container">
-          <div class="main__box">
-            <div class="main__title">
-              POTR ~ Eco, self-<span class="colored-word">watering, origami </span>plant<span class="colored-word"> pots</span>
-            </div>
-
-            <div class="main__price">
-              <div class="price">$ 7,50</div>
-              <div class="caption">Get the second order in half price</div>
-              <div class="button">
-                <a class="buy">buy now</a>
-                <img class="arrow-2" src="./images/icons/Arrow-2.png" alt="arrow">
+        <div class="title__container">
+          <div class="title__inner">
+            <div class="title__box">
+              <div class="title-one">
+                POTR ~ Eco, self-<span class="colored-word">watering, origami </span>plant<span class="colored-word"> pots</span>
+              </div>
+              <div class="title__price">
+                <div class="price">$ 7,50</div>
+                <div class="caption">Get the second order in half price</div>
+                <div class="button">
+                  <a class="buy" href="#benefits">buy now</a>
+                  <img class="arrow-2" src="./images/icons/Arrow-2.png" alt="arrow">
+                </div>
               </div>
             </div>
-          </div>
+              <img
+                class="title__picture"
+                src="./images/SMall-pot-smal.png"
+                alt="SMall-pot"
+              >
 
-          <div>
-            <img
-              class="main__picture"
-              src="./images/SMall-pot-smal.png"
-              alt="SMall-pot"
-            >
+            <div class="title__about">
+              <div>
+                <a href="#for-whom">More about  POTR POTS</a>
+              </div>
+              <div class="title__arrow">
+                <a href="#for-whom">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="45" viewBox="0 0 8 45" fill="none">
+                    <path d="M3.86422 44.3536C4.05948 44.5488 4.37606 44.5488 4.57133 44.3536L7.75331 41.1716C7.94857 40.9763 7.94857 40.6597 7.75331 40.4645C7.55805 40.2692 7.24146 40.2692 7.0462 40.4645L4.21777 43.2929L1.38935 40.4645C1.19408 40.2692 0.877502 40.2692 0.68224 40.4645C0.486977 40.6597 0.486977 40.9763 0.68224 41.1716L3.86422 44.3536ZM3.71777 0L3.71777 44H4.71777L4.71777 0L3.71777 0Z" fill="#03839E"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 <!-- #endregion -->
 
 <!-- #region for-whom -->
-        <section class="for-whom">
+        <section class="for-whom" id="for-whom">
           <div class="container">
+            <div class="for-whom__arrow">
+              <div></div>
+              <div>potr pots</div>
+            </div>
             <div class="section__inner--1">
+
               <div class="for-whom__title">
                 For whom?
               </div>
@@ -187,7 +207,7 @@
         <section>
             <div class="container">
               <div class="section__inner">
-                <div class="features">
+                <div class="features" id="features">
                   <span class="colored-word">POTR Pots</span> Features</div>
                 <div class="article-block">
                   <article class="article">
@@ -232,7 +252,7 @@
 <!-- #endregion -->
 
 <!-- #region potr-team -->
-        <section class="potr-team">
+        <section class="potr-team" id="potr-team">
           <img class="banner-team" src="./images/baners/banner-team.png">
           <img class="potr-team__image" src="./images/martin-endy_original.png">
           <div class="potr-team__andy">Andy</div>
@@ -254,13 +274,48 @@
         <section class="materials">
           <div class="container">
             <div class="section__inner">
-              <div class="materials__title">Materials and Features</div>
+              <div class="materials__title" id="materials">Materials and Features</div>
               <div class="materials__description">
                 <div class="materials__description--top">Environmentally friendly</div>
                 <div class="materials__description--small">All materials used in our pots are made from 100% recycled materials and are 100% recyclable at the end of life (should you ever choose to get rid of your POTR!). All materials have been sourced from within Europe to reduce our carbon footprint when transporting the raw materials, and all manufacturing is carried out in the UK.</div>
               </div>
             </div>
           </div>
+          <label>
+            <input class="popup--1" id="open-popup-1" type="checkbox"/>
+            <label class="adds__plus plus--1" for="open-popup-1"></label>
+            <span class="adds__extra extra--1">
+              POTR Pots are constructed using recycled polypropylene which can be fully recycled.
+            </span>
+          </label>
+          <label>
+            <input class="popup--2" id="open-popup-2" type="checkbox"/>
+            <label class="adds__plus plus--2" for="open-popup-2"></label>
+            <span class="adds__extra extra--2">
+              POTR pots are flat pack, origami planters designed to self-water your plants, made from recycled materials.
+            </span>
+          </label>
+          <label>
+            <input class="popup--3" id="open-popup-3" type="checkbox"/>
+            <label class="adds__plus plus--3" for="open-popup-3"></label>
+            <span class="adds__extra extra--3">
+              Once assembled the cotton cord doubles as the watering system, allowing your plants to self-regulate their water intake using tried and tested wicking technology.
+            </span>
+          </label>
+          <label>
+            <input class="popup--4" id="open-popup-4" type="checkbox"/>
+            <label class="adds__plus plus--4" for="open-popup-4"></label>
+            <span class="adds__extra extra--4">
+              Shipped flat packed so they can be slipped through your letterbox, POTR Pots have the smallest carbon footprint possible during transit.
+            </span>
+          </label>
+          <label>
+            <input class="popup--5" id="open-popup-5" type="checkbox"/>
+            <label class="adds__plus plus--5" for="open-popup-5"></label>
+            <span class="adds__extra extra--5">
+              We have chosen Bobbiny recycled cotton cord to use as our draw string and wicking cord. Not only is it 100% recycled, it looks great and works really well at wicking water.
+            </span>
+          </label>
         </section>
 <!-- #endregion -->
 
@@ -366,9 +421,9 @@
 <!-- #endregion -->
 
 <!-- #region questions -->
-        <section class="last-section">
-          <div class="banner--last"></div>
+        <section class="last-section" id="questions">
           <div class="container">
+            <div class="banner--last"></div>
             <div class="section__inner--2">
               <div class="block-form">
                 <div class="questions">have any questions?</div>
@@ -438,15 +493,36 @@
           </div>
           <div class="footer__media">
             <div>
-              <img class="twitter" src="./images/icons/twit.png" alt="twitter">
-              <img class="instagram" src="images/icons/insta.png" alt="instagram">
-              <img class="facebook" src="images/icons/faceb.png" alt="facebook">
+              <a class="twitter"
+                href="https://twitter.com/potterypots">
+                <img
+                  src="./images/icons/twit.png"
+                  alt="twitter"
+                >
+              </a>
+
+              <a class="instagram"
+                href="https://www.instagram.com/potrpots/">
+                <img
+                  src="images/icons/insta.png"
+                  alt="instagram"
+                >
+              </a>
+
+              <a class="facebook"
+                href="https://www.facebook.com/potrpots/">
+                <img
+                  src="images/icons/faceb.png"
+                  alt="facebook"
+                >
+              </a>
             </div>
+
             <div
-              class="footer__potr-pots"
-              href="#"
+              class="footer__logo"
+
             >
-              potrpots
+              <a href="#header">potrpots</a>
             </div>
           </div>
           <div class="footer__about-us">
@@ -456,8 +532,10 @@
 
         </div>
       </footer>
+<!-- #endregion -->
+
     </div>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>
-<!-- #endregion -->
+

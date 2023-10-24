@@ -1,0 +1,78 @@
+.potr-team {
+  position: relative;
+  width: 100%;
+  // width: 1440px;
+  // margin: 0 auto;
+  height: 1120px;
+
+  // border: 1px solid #000;
+}
+
+.potr-team__title {
+  height: 70px;
+  color: #333;
+  font-family: Bebas Neue;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 8.99px;
+}
+
+.banner-team {
+  position: absolute;
+  left: 0;
+  top: 190px;
+  width: 435px;
+  height: 310.5px;
+  flex-shrink: 0;
+  // margin-top: 115px;
+}
+
+.potr-team__martin {
+  margin-top: 27px;
+  margin-left: -60px;
+}
+
+.potr-team__andy {
+  position: absolute;
+  bottom: 95px;
+  right: 4px;
+}
+
+.potr-team__martin,
+.potr-team__andy {
+  z-index: 3;
+
+  font-family: Bebas Neue;
+  font-size: 288px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 44.64px;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px $second-button-default;
+}
+
+.potr-team__image {
+  position: absolute;
+  width: 677px;
+  height: 507.75px;
+  flex-shrink: 0;
+  top: 213px;
+  right: 235px;
+}
+
+.potr-team__description {
+  width: 336px;
+  height: 264px;
+  color: $dark-gray;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+

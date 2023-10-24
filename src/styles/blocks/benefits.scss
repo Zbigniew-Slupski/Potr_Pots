@@ -1,0 +1,159 @@
+.benefits {
+  display: block;
+  height: max-content;
+  width: 100%;
+}
+
+.benefits__container {
+  position: relative;
+  max-width: 1200px;
+  height: 828px;
+  margin-bottom: 4px;
+  padding: 0 15px;
+  // width: 100%;
+}
+
+.benefits__pictures {
+  display: flex;
+  width: 633px;
+  height: 828px;
+  flex-shrink: 0;
+  // margin-bottom: 4px;
+  // border: #000 solid 1px;
+}
+
+.benefits__pictures--frame {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.benefits__text {
+  display: flex;
+  flex-direction: column;
+  height: 828px;
+  // width: max-content;
+  width: 670px;
+}
+
+.benefits__text--large {
+  display: flex;
+  margin-top: 186px;
+  flex-direction: column;
+}
+
+.benefits__text--large div {
+  display: flex;
+}
+
+.block-text {
+  display: flex;
+}
+
+.block-text__col {
+  display: flex;
+  flex-direction: column;
+}
+
+.block-text__frame {
+  width: 14px;
+  height: 14px;
+  margin: 23px 10px 17px 0;
+}
+
+.block-text__col--big {
+  width: max-content;
+  margin-right: 20px;
+  color: $gray-1;
+  font-family: Manrope;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 54px */
+}
+
+.block-text__col--small {
+  width: max-content;
+  color: $gray-3;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.benefits__text--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 238px;
+  height: 48px;
+  margin-top: 60px;
+  flex-shrink: 0;
+
+  border: 1px solid $second-button-default;
+  cursor: pointer;
+}
+
+.buy-now {
+  display: flex;
+  flex-direction: row;
+  width: 78px;
+  height: 20px;
+  color: #121212;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.arrow {
+  margin-left: 5px;
+  width: 25px;
+}
+
+.benefits__text--discount {
+  display: flex;
+  flex-direction: column;
+
+  flex-shrink: 0;
+  margin-top: 70px;
+  margin-left: 100px;
+}
+
+.benefits__text--discount div:first-child {
+  width: 170px;
+  height: 51px;
+  margin-bottom: 5px;
+
+  color: $error;
+  font-family: Bebas Neue;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 54px */
+  letter-spacing: 5.58px;
+  text-transform: uppercase;
+}
+
+.benefits__text--discount div:last-child {
+  display: flex;
+  width: 570px;
+  height: 50px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: $second-button-default;
+  font-family: Bebas Neue;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 100% */
+  letter-spacing: 3.72px;
+  text-transform: uppercase;
+}

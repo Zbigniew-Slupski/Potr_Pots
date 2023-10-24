@@ -1,0 +1,245 @@
+.materials {
+  position: relative;
+  display: block;
+  flex-shrink: 0;
+  width: 100%;
+  height: 1081px;
+  margin-bottom: 7px;
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(255, 255, 255, 0.00) 30.93%), url(../images/materials-picture.png), lightgray 50% / cover no-repeat;
+  background-size: cover;
+}
+
+.materials__title {
+  position: absolute;
+  width: 875px;
+  height: 289px;
+  bottom: -110px;
+  flex-shrink: 0;
+
+  color: #03839E;
+  font-family: Bebas Neue;
+  font-size: 138.805px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 16.657px;
+}
+
+.materials__description {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+}
+
+.materials__description--top {
+  display: flex;
+  margin-top: 6.4px;
+  margin-bottom: 15px;
+  color: $dark-gray;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+
+.materials__description--small {
+  display: flex;
+  width: 470px;
+  color: $dark-gray;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.materials__adds {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.adds__plus {
+  display: block;
+  background-image: url(../images/icons/icon-plus.png);
+  width: 51px;
+  height: 51px;
+  background-size: cover;
+}
+
+label {
+  cursor: pointer;
+}
+
+.plus--1 {
+  position: absolute;
+  top: 874px;
+  left: 254px;
+  bottom: 156px;
+  right: 1135px;
+}
+
+.plus--2 {
+  position: absolute;
+  top: 630px;
+  left: 547px;
+  bottom: 400px;
+  right: 842px;
+}
+
+.plus--3 {
+  position: absolute;
+  top: 925px;
+  left: 684px;
+  bottom: 105px;
+  right: 705px;
+}
+
+.plus--4 {
+  position: absolute;
+  top: 758px;
+  left: 835px;
+  bottom: 279px;
+  right: 554px;
+}
+
+.plus--5 {
+  position: absolute;
+  top: 657px;
+  left: 1111px;
+  bottom: 373px;
+  right: 278px;
+}
+
+.extra--1 {
+  position: absolute;
+  top: 678px;
+  right: 1026px;
+  bottom: 237px;
+  left: 131px;
+}
+.extra--2 {
+  position: absolute;
+  top: 444px;
+  right: 874px;
+  bottom: 471px;
+  left: 283px;
+}
+.extra--3 {
+  position: absolute;
+  top: 848px;
+  right: 767px;
+  bottom: 19px;
+  left: 390px;
+}
+.extra--4 {
+  position: absolute;
+  top: 502px;
+  right: 420px;
+  bottom: 365px;
+  left: 737px;
+}
+.extra--5 {
+  position: absolute;
+  top: 714px;
+  right: 152px;
+  bottom: 130px;
+  left: 985px;
+}
+
+.adds__extra {
+  display: none;
+  width: 283px;
+  padding: 35px;
+  align-items: flex-start;
+  gap: 10px;
+
+  color: $light-gray;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.popup--1,
+.popup--2,
+.popup--3,
+.popup--4,
+.popup--5 {
+  display: none;
+}
+
+.popup--1:checked~.adds__plus,
+.popup--2:checked~.adds__plus,
+.popup--3:checked~.adds__plus,
+.popup--4:checked~.adds__plus,
+.popup--5:checked~.adds__plus {
+  background-image: url(../images/icons/icon-minus.png);
+}
+
+.popup--1:checked~.extra--1 {
+  position: absolute;
+  top: 678px;
+  right: 1026px;
+  bottom: 237px;
+  left: 131px;
+}
+
+.popup--2:checked~.extra--2 {
+  position: absolute;
+  top: 444px;
+  right: 874px;
+  bottom: 471px;
+  left: 283px;
+}
+
+.popup--3:checked~.extra--3 {
+  position: absolute;
+  top: 848px;
+  right: 767px;
+  bottom: 19px;
+  left: 390px;
+}
+
+.popup--4:checked~.extra--4 {
+  position: absolute;
+  top: 502px;
+  right: 420px;
+  bottom: 365px;
+  left: 737px;
+}
+
+.popup--5:checked~.extra--5 {
+  position: absolute;
+  top: 714px;
+  right: 152px;
+  bottom: 130px;
+  left: 985px;
+}
+
+.popup--1:checked~.adds__extra,
+.popup--2:checked~.adds__extra,
+.popup--3:checked~.adds__extra,
+.popup--4:checked~.adds__extra,
+.popup--5:checked~.adds__extra {
+  display: inline-flex;
+  z-index: 3;
+  background: rgba(0, 0, 0, 0.40);
+  backdrop-filter: blur(20px);
+  width: 283px;
+  padding: 35px;
+  align-items: flex-start;
+  gap: 10px;
+
+  color: $light-gray;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}

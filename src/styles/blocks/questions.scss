@@ -1,0 +1,143 @@
+.last-section {
+  display: block;
+  height: 547px;
+  width: 100%;
+}
+
+.block-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+  z-index: 3;
+}
+
+.banner--last {
+  width: 1320px;
+  height: 567px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(../images/baners/banner-last.png);
+  background-size: cover;
+  object-position: top right;
+  z-index: 0;
+}
+
+.questions {
+  width: 350px;
+  height: 54px;
+
+  color: #000;
+  font-family: Bebas Neue;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 54px */
+  letter-spacing: 5.58px;
+  text-transform: uppercase;
+}
+
+.quest-cap {
+  width: 280px;
+  height: 24px;
+
+  color: #000;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.button--last {
+  width: 238px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $second-button-default;
+  cursor: pointer;
+}
+
+.button--last:hover {
+  border: 1px solid rgba(3, 128, 158, 0.40);
+  background: rgba(3, 128, 158, 0.40);
+}
+
+.button--last a {
+  width: 75px;
+  height: 20px;
+
+  color: $c-gray;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 21px */
+  text-transform: uppercase;
+}
+
+.button__submit {
+  width: 25px;
+  height: 8px;
+  margin-left: 5px;
+  // color: #f8f8f8;
+  fill: linear-gradient(0deg, #FFF 0%, #FFF 100%), #121212;
+  stroke-width: 1px;
+  stroke: $light-gray;
+}
+
+.block-contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 55px;
+  margin-left: 230px;
+}
+
+.contact-type {
+  margin-top: 25px;
+
+  color: rgba(0, 0, 0, 0.39);
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+
+.contact-type p {
+  color: #000;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.message {
+  margin-top: 30px;
+  color: #000;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+
+.form-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 371px;
+  margin: 40px 0 40px;
+  z-index: 3;
+}
+
+.form-field input{
+  padding-left: 6px;
+  height: 40px;
+  width: 100%;
+  background: transparent;
+  border-bottom: 1px solid $gray;
+}
