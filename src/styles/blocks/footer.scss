@@ -4,53 +4,64 @@
   bottom: 0;
   height: 296px;
   width: 100%;
+
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
 }
 
-.footer__container {
-  position: relative;
-  top: 74px;
-  width: 100%;
+.footer__inner {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
-  max-width: 1200px;
-  height: 150px;
-  margin: 0 auto;
-  // background-color: #fff;
+  justify-content: space-between;
+  margin-top: 74px;
 }
 
-.footer__address :first-child {
-  display: flex;
+.footer__address {
+  flex: 0 1 33.333%;
   flex-direction: column;
+}
 
+.footer__address:first-child {
+  display: flex;
+  text-align: left;
   color: #000;
-  font-family: Bebas Neue;
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 100% */
+  line-height: 100%; /* 100% */
   letter-spacing: 3.72px;
   text-transform: uppercase;
 }
 
 .footer__address div:last-child {
-  width: 170px;
-  height: 72px;
   color: #000;
   font-family: Manrope;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 24px */
+  line-height: 150%;
   text-transform: none;
+  letter-spacing: 0;
+}
+
+.footer__block {
+  flex: 0 1 33.333%;
+  max-width: 270px;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .footer__media {
-  height: 30px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  margin: 0 auto;
+}
+
+.footer__media a {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
 }
 
 .footer__media .instagram {
@@ -58,15 +69,17 @@
 }
 
 .footer__about-us {
-  height: 24px;
-  width: 128px;
+  flex: 0 1 33.333%;
+  flex-direction: row;
+  text-align: right;
 }
 
 .footer__about-us div:first-child {
+
   color: #000;
   font-family: Bebas Neue;
   font-size: 24px;
-  font-style: normal;
+
   font-weight: 400;
   line-height: 24px; /* 100% */
   letter-spacing: 3.72px;
@@ -88,16 +101,13 @@
   margin: 74px auto;
   justify-content: center;
   text-align: center;
-  // border: 1px solid #000;
 }
 
 .footer__logo a {
   padding: 10px;
   color: #000;
   text-decoration: none;
-  font-family: Bebas Neue;
   font-size: 36px;
-  font-style: normal;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 5.58px;

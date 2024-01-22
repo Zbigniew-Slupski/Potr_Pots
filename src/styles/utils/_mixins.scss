@@ -1,3 +1,19 @@
+// @mixin onDesktop ($desktop-min-width) {
+//   @media (min-width: 1440px) {
+//     @content;
+//   }
+// }
+// @mixin onTablet ($tablet-min-width) {
+//   @media (min-width: 768px) {
+//     @content;
+//   }
+// }
+// @mixin onPhone ($phone-min-width) {
+//   @media (min-width: 320px) {
+//     @content;
+//   }
+// }
+
 @mixin hover($_property, $_toValue) {
   transition: #{$_property} 0.3s;
   &:hover {
